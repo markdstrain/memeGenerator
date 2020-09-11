@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class = "pageTitle">Meme Generator!!</h1>
+    <div class = "memeGeneratorContainer">
+        <div class = "meme">
+            <canvas id = "memeCanvas" width="666" height="400" style= "border: 3px solid black"></canvas>
+            <input type="file" id="imageInput" class="inputFile" accept="image/*">
+            <label for="imageInput" id="inputLabel">Choose a file</label>
+        
+            <div class='inputText'>
+                <div class="topTextDiv">
+                    <label for="topText">Top Text</label>
+                    <input type="text"id="topText" class="inputText" placeholder="Top Text">
+                </div>
+                    <div class = "bottomTextDiv">
+                        <label for="bottomText">Bottom Text</label>
+                        <input type="text"id="bottomText"class="inputText" placeholder="Bottom Text">
+                    </div>
+                <div id="generateButton">
+                    <button id="generator">Create Meme!</button>
+                </div>
+            </div>
+    <div id= "gallary">
+
+    </div>
+        </div>
+    </div>
+    
+
+
+  <script src="memeGeneratorIII.js"></script>  
+</body>
+</html>
